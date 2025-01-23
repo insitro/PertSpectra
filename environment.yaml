@@ -1,0 +1,11 @@
+name: pertspectra
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.11,<3.12
+  - pip>=23.2.0
+  - pre_commit>=2.20.0
+  - pytest-cov>=2.7.1
+  - pytest>=7.2.0
